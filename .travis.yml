@@ -8,7 +8,6 @@ env:
   - CHANNEL=dev
   - PACKAGE_NAME=xml-parser
   matrix:
-  - OSCRIPT_VERSION=1_0_19
   - OSCRIPT_VERSION=1_0_20
   - OSCRIPT_VERSION=night-build
 matrix:
