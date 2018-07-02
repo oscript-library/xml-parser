@@ -1,0 +1,6 @@
+bdd-log*.xml
+bin/*
+tests.xml
+*.ospx
+
+coverage/*
