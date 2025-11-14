@@ -1,0 +1,15 @@
+name: Контроль качества
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  sonar:
+    uses: autumn-library/workflows/.github/workflows/sonar.yml@v1
+    with:
+      github_repository: oscript-library/xml-parser
+      coveralls: true
+    secrets:
+      SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
