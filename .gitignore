@@ -2,5 +2,6 @@ bdd-log*.xml
 bin/*
 tests.xml
 *.ospx
-
-coverage/*
+oscript_modules/
+.bsl-ls-cache/
+out/*

@@ -1,0 +1,3 @@
+﻿<frst:data xmlns:frst="http://example.com/first_level" xmlns:scnd="http://example.com/second_level">
+	<scnd:data>Значение</scnd:data>
+</frst:data>
